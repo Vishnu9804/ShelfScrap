@@ -4,19 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7e05fd9-f58c-4b33-a3ea-c42fc9830b18" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ShelfScrap/ShelfScrapApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ShelfScrap/entities/Book.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ShelfScrap/entities/Genre.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/ShelfScrap/ShelfScrapApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/theme/DarkTheme.js" beforeDir="false" />
+    <list default="true" id="0a0234a6-bf62-4912-8d36-27e990df5cda" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/src/customers/components/NavBar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/customers/components/NavBar/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Frontend/src/customers/context/genreContext.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/customers/context/genreContext.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Exception" />
         <option value="Class" />
       </list>
     </option>
@@ -41,9 +34,9 @@
     </option>
   </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 0
+  &quot;associatedIndex&quot;: 5
 }</component>
-  <component name="ProjectId" id="2taDSAzZlL5to4pE6IgVaaNCAes" />
+  <component name="ProjectId" id="2uD2CLSXaOzLDpjJGwQ5X3E4z2i" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -60,7 +53,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/My Corner/Java Dev/temp/ShelfScrap",
+    "last_opened_file_path": "C:/My Corner/Java Dev/ShelfScrap/Backend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -89,17 +82,15 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f7e05fd9-f58c-4b33-a3ea-c42fc9830b18" name="Changes" comment="" />
-      <created>1740581289086</created>
+      <changelist id="0a0234a6-bf62-4912-8d36-27e990df5cda" name="Changes" comment="" />
+      <created>1741768696141</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1740581289086</updated>
-      <workItem from="1740581290278" duration="600000" />
-      <workItem from="1741767453154" duration="267000" />
-      <workItem from="1741767788107" duration="197000" />
-      <workItem from="1741767999462" duration="26000" />
-      <workItem from="1741768059414" duration="226000" />
-      <workItem from="1741768346966" duration="9000" />
+      <updated>1741768696141</updated>
+      <workItem from="1741768697741" duration="1192000" />
+      <workItem from="1741797430249" duration="237000" />
+      <workItem from="1741883650488" duration="196000" />
+      <workItem from="1741883972674" duration="66000" />
     </task>
     <servers />
   </component>

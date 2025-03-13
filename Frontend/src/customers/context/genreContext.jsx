@@ -1,4 +1,4 @@
-/* eslint-disable react/prop-types */
+import React from "react";
 import { createContext, useContext, useState } from "react";
 
 // Create a context to hold the genre data
