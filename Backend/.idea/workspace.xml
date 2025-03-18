@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0a0234a6-bf62-4912-8d36-27e990df5cda" name="Changes" comment="" />
+    <list default="true" id="0a0234a6-bf62-4912-8d36-27e990df5cda" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ShelfScrap/repository/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ShelfScrap/repository/GenreRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,9 +17,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Exception" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -88,6 +92,7 @@
       <workItem from="1741883650488" duration="196000" />
       <workItem from="1741883972674" duration="66000" />
       <workItem from="1742179242353" duration="48000" />
+      <workItem from="1742298810481" duration="281000" />
     </task>
     <servers />
   </component>
