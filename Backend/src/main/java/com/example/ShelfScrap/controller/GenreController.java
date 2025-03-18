@@ -1,6 +1,7 @@
 package com.example.ShelfScrap.controller;
 
 import com.example.ShelfScrap.entities.Genre;
+import com.example.ShelfScrap.exceptions.ResourceNotFoundException;
 import com.example.ShelfScrap.repository.GenreRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -30,9 +31,7 @@ public class GenreController {
     @PatchMapping("/genres/{genreId}")
     public ResponseEntity<Genre> updateGenre(@PathVariable Long genreId, @RequestBody Genre updatedGenre) {
         Genre existingGenre = genreRepository.findById(genreId)
-                .orElseThrow(
-//                        () -> new ResourceNotFoundException("Genre not found with id " + genreId)
-                );
+                .orElseThrow(() -> new ResourceNotFoundException("Genre not found with id " + genreId));
 
         if (updatedGenre.getGenre_url() != null) {
             existingGenre.setGenre_url(updatedGenre.getGenre_url());
@@ -48,9 +47,7 @@ public class GenreController {
     @DeleteMapping("genres/{genreId}")
     public void deleteGenre(@PathVariable long genreId){
         Genre genre = genreRepository.findById(genreId)
-                .orElseThrow(
-//                        () -> new ResourceNotFoundException("Genre not found with id " + genreId)
-                );
+                .orElseThrow(() -> new ResourceNotFoundException("Genre not found with id " + genreId));
 
         genreRepository.delete(genre);
         System.out.println("genre deleted");

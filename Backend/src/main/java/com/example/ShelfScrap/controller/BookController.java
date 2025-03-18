@@ -1,6 +1,7 @@
 package com.example.ShelfScrap.controller;
 
 import com.example.ShelfScrap.entities.Book;
+import com.example.ShelfScrap.exceptions.ResourceNotFoundException;
 import com.example.ShelfScrap.repository.BookRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -41,9 +42,7 @@ public class BookController {
     @PatchMapping("/books/{bookId}")
     public ResponseEntity<Book> updateBook(@PathVariable long bookId, @RequestBody Book updatedBook) {
         Book existingBook = bookRepository.findById(bookId)
-                .orElseThrow(
-//                        () -> new ResourceNotFoundException("Book not found with id: " + bookId)
-                );
+                .orElseThrow(() -> new ResourceNotFoundException("Book not found with id: " + bookId));
 
         if(updatedBook.getBook_name() != null){
             existingBook.setBook_name(updatedBook.getBook_name());
@@ -80,9 +79,7 @@ public class BookController {
     @DeleteMapping("books/{bookId}")
     public void deleteBook(@PathVariable long bookId){
         Book book = bookRepository.findById(bookId)
-                .orElseThrow(
-//                        () -> new ResourceNotFoundException("Book not found with id " + bookId)
-                );
+                .orElseThrow(() -> new ResourceNotFoundException("Book not found with id " + bookId));
 
         bookRepository.delete(book);
         System.out.println("book deleted");
