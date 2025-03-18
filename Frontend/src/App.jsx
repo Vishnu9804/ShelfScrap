@@ -1,14 +1,19 @@
-/* eslint-disable no-unused-vars */
-import { useState } from 'react'
-import './App.css'
-import React from 'react'
-
+import { ThemeProvider } from "@emotion/react";
+import "./App.css";
+import Routers from "./routers/Routers";
+import { darkTheme } from "./theme/darkTheme";
+import { CssBaseline } from "@mui/material";
+import { GenreProvider } from "./customers/context/genreContext";
+import React from "react";
 function App() {
   return (
-    <div className="flex items-center justify-center h-screen bg-gray-900 text-white">
-      <h1 className="text-4xl font-bold">Hello, Tailwind CSS! 🚀</h1>
-    </div>
-  )
+    <ThemeProvider theme={darkTheme}>
+      <GenreProvider>
+        <CssBaseline />
+        <Routers />
+      </GenreProvider>
+    </ThemeProvider>
+  );
 }
 
-export default App
+export default App;
