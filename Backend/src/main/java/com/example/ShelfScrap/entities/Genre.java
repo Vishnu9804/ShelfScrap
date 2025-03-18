@@ -1,11 +1,11 @@
 package com.example.ShelfScrap.entities;
 
-import jakarta.persistence.CascadeType;
-import jakarta.persistence.Id;
-import jakarta.persistence.OneToMany;
+import jakarta.persistence.*;
 
 import java.util.List;
 
+@Entity
+@Table(name = "Genre")
 public class Genre {
     @Id
     private Long genre_id;
