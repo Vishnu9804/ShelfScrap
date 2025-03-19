@@ -14,7 +14,7 @@ const Navbar = () => {
     const [password, setPassword] = useState('');
 
     const handleGenresClick = () => {
-        navigate("/genres"); 
+        navigate("/genres");
     };
 
     const handleProfileClick = () => {
@@ -22,29 +22,29 @@ const Navbar = () => {
     };
 
     const handleLogin = () => {
-            if (username === 'tanya' && password === '123') {
+        if (username === 'Vishnu' && password === '123') {
             navigate("/profile");
         } else {
             alert("Invalid credentials. Please try again.");
         }
-        
+
         setUsername('');
         setPassword('');
-        
+
         setOpenLoginDialog(false);
     };
 
-    
+
     const handleMyLibraryClick = (event) => {
         setStatusMenuAnchor(event.currentTarget);
     };
 
     const handleStatusSelect = (status) => {
         navigate(`/${status}`);
-        handleStatusMenuClose(); 
+        handleStatusMenuClose();
     };
 
-   
+
     const handleStatusMenuClose = () => {
         setStatusMenuAnchor(null);
     };
@@ -52,22 +52,22 @@ const Navbar = () => {
     return (
         <>
             <nav className='px-5 z-50 py-[.8rem] bg-red-950 lg:px-20 flex justify-between'>
-                <div className="lg:mr-10 cursor-pointer flex items-center space-x-4" onClick={()=>navigate("/")}>
+                <div className="lg:mr-10 cursor-pointer flex items-center space-x-4" onClick={() => navigate("/")}>
                     <ul className="logo font-semibold text-gray-100 text-1xl">Ink&Paper</ul>
                 </div>
 
                 <div className="flex items-center space-x-2">
 
-                    <IconButton onClick={handleGenresClick}> 
-                        <FaThList size={20} style={{ color: 'white' }} /> 
+                    <IconButton onClick={handleGenresClick}>
+                        <FaThList size={20} style={{ color: 'white' }} />
                     </IconButton>
 
                     <IconButton onClick={handleMyLibraryClick}>
-                        <AiOutlineBook size={20} style={{ color: 'white' }} /> 
+                        <AiOutlineBook size={20} style={{ color: 'white' }} />
                     </IconButton>
 
-                    <IconButton onClick={handleProfileClick}> 
-                        <FaUser size={20} style={{ color: 'white' }} /> 
+                    <IconButton onClick={handleProfileClick}>
+                        <FaUser size={20} style={{ color: 'white' }} />
                     </IconButton>
 
                     <Menu
@@ -75,7 +75,7 @@ const Navbar = () => {
                         open={Boolean(statusMenuAnchor)}
                         onClose={handleStatusMenuClose}
                     >
-                        <MenuItem onClick={() =>handleStatusSelect('currently_reading')}>
+                        <MenuItem onClick={() => handleStatusSelect('currently_reading')}>
                             Currently Reading
                         </MenuItem>
                         <MenuItem onClick={() => handleStatusSelect('already_read')}>
@@ -88,7 +88,7 @@ const Navbar = () => {
                 </div>
             </nav>
 
-            
+
             <Dialog open={openLoginDialog} onClose={() => setOpenLoginDialog(false)}>
                 <DialogTitle>Admin Login</DialogTitle>
                 <DialogContent>

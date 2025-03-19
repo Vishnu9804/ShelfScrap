@@ -1,4 +1,5 @@
-import  { useEffect, useState } from 'react';
+/* eslint-disable no-unused-vars */
+import { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
 
@@ -23,14 +24,14 @@ const MainBookCard = () => {
   const handleStatusChange = async (event) => {
     const status = event.target.value;
     setNewStatus(status);
-    if(status=='none'){
-      try{
+    if (status == 'none') {
+      try {
         await axios.patch(`http://localhost:8080/books/${bookId}`, { book_status: '' })
         alert('book status removed')
-      }catch(error){
+      } catch (error) {
         console.error('error removing book status')
       }
-    }else{
+    } else {
       try {
         await axios.patch(`http://localhost:8080/books/${bookId}`, { book_status: status });
         alert(`Book status successfully updated to ${status}`);
@@ -39,7 +40,7 @@ const MainBookCard = () => {
         alert('Failed to update book status. Please try again.');
       }
     }
-    
+
   };
 
   return (
@@ -48,7 +49,7 @@ const MainBookCard = () => {
         <div className="flex flex-col md:flex-row -mx-3">
           <div className="md:flex-1 px-2">
             <img src={book?.book_url} alt={book?.book_name} className="h-96 w-auto rounded-lg object-cover bg-gray-300 dark:bg-white mb-4 p-2" />
-            
+
             <div>
               <select
                 value={newStatus}
@@ -62,11 +63,11 @@ const MainBookCard = () => {
               </select>
             </div>
           </div>
-          
+
           <div className="md:flex-1 px-3">
             <h2 className="text-4xl font-bold text-orange-800 dark:text-orange-500 mb-2">{book?.book_name}</h2>
             <p className="text-1xl font-bold text-orange-600 dark:text-orange-500 mb-2">by {book?.book_author}</p>
-            
+
             <br />
             <div>
               <span className="font-bold text-orange-800 dark:text-orange-500">Book Description</span>
@@ -76,7 +77,7 @@ const MainBookCard = () => {
               <br />
               <div className="flex items-center">
                 <span className="font-bold text-md text-orange-800 dark:text-orange-500">Published on:<br />{book?.book_published_date}</span>
-              </div>            
+              </div>
             </div>
           </div>
         </div>

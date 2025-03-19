@@ -1,0 +1,14 @@
+[
+    {
+        "username": "testuser2",
+        "recommended_book": "1"
+    },
+    {
+        "username": "testuser2",
+        "recommended_book": "4"
+    },
+    {
+        "username": "testuser",
+        "recommended_book": "4"
+    }
+]

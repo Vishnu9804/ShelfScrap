@@ -29,7 +29,7 @@ public class BookController {
     @GetMapping("/books/{book_id}")
     public ResponseEntity<Book> getBookById(@PathVariable(value = "book_id") long book_id){
         Book book = bookRepository.findById(book_id).orElseThrow(
-//                ()-> new ResourceNotFoundException("book does not exist with id " + book_id)
+                ()-> new ResourceNotFoundException("book does not exist with id " + book_id)
         );
         return ResponseEntity.ok(book);
     }
