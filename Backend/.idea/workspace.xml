@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0a0234a6-bf62-4912-8d36-27e990df5cda" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/ShelfScrap/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/ShelfScrap/controller/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/ShelfScrap/controller/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/customers/components/NavBar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/customers/components/NavBar/Navbar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/customers/pages/BookCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/customers/pages/BookCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/customers/pages/HomePage/Carouselitems.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/customers/pages/HomePage/Carouselitems.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/customers/pages/HomePage/HomePage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/customers/pages/HomePage/HomePage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/customers/pages/HomePage/MultipleBooksCarousel.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/customers/pages/HomePage/MultipleBooksCarousel.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/customers/pages/MainBookCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/customers/pages/MainBookCard.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Frontend/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/../Frontend/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ML_Algorithms/AlreadyReadBooks.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/../ML_Algorithms/AlreadyReadBooks.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ML_Algorithms/apriori.py" beforeDir="false" afterPath="$PROJECT_DIR$/../ML_Algorithms/apriori.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ML_Algorithms/recommendations.json" beforeDir="false" afterPath="$PROJECT_DIR$/../ML_Algorithms/recommendations.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +96,16 @@
       <workItem from="1742179242353" duration="48000" />
       <workItem from="1742298810481" duration="1941000" />
       <workItem from="1742383973378" duration="5924000" />
-      <workItem from="1742398352108" duration="13463000" />
+      <workItem from="1742398352108" duration="15226000" />
+      <workItem from="1742446901709" duration="639000" />
+      <workItem from="1742449188337" duration="2710000" />
+      <workItem from="1742486254642" duration="746000" />
+      <workItem from="1742792110320" duration="1563000" />
+      <workItem from="1742795962227" duration="207000" />
+      <workItem from="1742796225630" duration="3007000" />
+      <workItem from="1742803096938" duration="349000" />
+      <workItem from="1742831783729" duration="2435000" />
+      <workItem from="1742838608174" duration="65000" />
     </task>
     <servers />
   </component>
